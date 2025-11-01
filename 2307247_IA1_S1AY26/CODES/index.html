@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Alex Crawford — Portfolio</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header" role="banner">
+      <div class="logo">
+        <!-- logo image stored in Assets/ -->
+        <img src="../Assets/me.jpg" alt="Alex Crawford — small logo" />
+        <div>
+          <h1 class="site-title">Alex Crawford</h1>
+          <div class="badge">Student • Web Programmer • Fitness Enthusiast • Scout • Athlete</div>
+        </div>
+      </div>
+
+      <nav class="main-nav" role="navigation" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="Codes/storyboard.html">Storyboard</a></li>
+          <li><a href="references.html">References</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="site-main" role="main">
+      <!-- HERO -->
+      <section class="hero card" aria-labelledby="hero-title">
+        <div class="intro">
+          <h2 id="hero-title">Hey, I’m Alex</h2>
+          <p>I’m a student pursuing Computer Science with a pasion for aviation, databases, and building accessible, clean interfaces.</p> 
+
+          <p><strong>Quick facts</strong></p>
+          <ul class="profile-list">
+            <li>Location: Albion St.Thomas, Jamaica</li>
+            <li>Student ID: 1234567</li>
+            <li>Email: <a class="bookmark" href="mailto:alexjcrawford@students.utech.edu.jm">alexjcrawford@students.utech.edu.jm</a></li>
+          </ul>
+
+          <!-- internal (bookmark) link to Education in resume -->
+          <p><a class="bookmark" href="../Codes/resume.html#education">Jump to Education (Resume)</a></p>
+        </div>
+
+        <aside class="portrait">
+          <!-- image must be in Assets/, link wraps image to open mail client -->
+          <a href="mailto:alexjcrawford@students.utech.edu.jm">
+            <img src="../Assets/me.jpg" alt="Portrait photo of Alex Crawford" />
+          </a>
+        </aside>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="card" aria-labelledby="about-heading">
+        <h3 id="about-heading">About Me</h3>
+        <p>I like building small web projects and exploring database design, learn about aviation. I maintain a fitness channel 'Fit Facts Lifestyle' and enjoy researching  ways to apply software to everyday problems.</p>
+        <p class="muted">Vision: To become pilot and a dependable full-stack developer creating tools that make daily workflows simpler.</p>
+        <p class="muted">Mission: Learn continuously, build consistently, and collaborate with others to solve real problems.</p>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="card" aria-labelledby="proj-heading">
+        <h3 id="proj-heading">Selected Projects & Favorite Media</h3>
+        <div class="cards">
+          <article class="card-item">
+            <h4>CipherReclaim (Project)</h4>
+            <p>Landing page, Notion dashboard, recovery toolkit overview.</p>
+          </article>
+          <article class="card-item">
+            <h4>Fit Facts Lifestyle (YouTube)</h4>
+            <p>Fitness facts, routines, and wellness products.</p>
+          </article>
+          <article class="card-item">
+            <h4>Database Design (Course)</h4>
+            <p>ER modelling, relational schemas, SQL implementation.</p>
+          </article>
+        </div>
+
+        <!-- Table (Q5 requirement) -->
+<section id="favorites">
+  <h4 style="margin-top:12px;">Favorite Book</h4>
+  <table class="book-table" aria-label="Favorite book">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Why I like it</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Rich Dad Poor Dad</td>
+        <td>Robert T. Kiyosaki</td>
+        <td>
+          It completely changed how I think about money, mindset, and building
+          financial freedom through assets and entrepreneurship.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Reflection -->
+  <p style="margin-top: 12px;">
+    Reading <em>Rich Dad Poor Dad</em> taught me the importance of financial education,
+    investing, and developing an entrepreneurial mindset. It motivated me to look
+    beyond traditional ways of earning and focus on creating assets that work for me.
+  </p>
+</section>
+
+<!-- Footer with GitHub link -->
+<footer style="margin-top: 20px; text-align:center; padding:10px; background:#f4f4f4;">
+  <p>&copy; 2025 Alex Crawford. All rights reserved.</p>
+  <p>
+    Connect with me:
+    <a href="https://github.com/AlexC067" target="_blank">GitHub (@AlexC067)</a> |
+  </p>
+</footer>

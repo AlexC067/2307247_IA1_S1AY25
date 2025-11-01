@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Storyboard & Assets — Alex Crawford</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="logo"><img src="../Assets/me.jpg" alt="Alex small"><h1 class="site-title">Storyboard & Design</h1></div>
+      <nav class="main-nav"><ul><li><a href="../Codes/index.html">Home</a></li></ul></nav>
+    </header>
+
+    <main class="site-main">
+      <section class="card" aria-labelledby="sb-mobile">
+        <h3 id="sb-mobile">Mobile Layout (600px)</h3>
+        <p>Mobile wireframe (PNG):</p>
+        <img src="../Assets/storyboard-mobile.jpg" alt="Mobile storyboard" style="max-width:100%;border-radius:10px;box-shadow:var(--shadow)">
+
+        <h4>Div groups (mobile)</h4>
+        <pre>
+<header>logo + nav (hamburger)</header>
+<section.hero>portrait + intro</section.hero>
+<section>about</section>
+<section>projects list (cards)</section>
+<footer>contact</footer>
+        </pre>
+      </section>
+
+      <section class="card" aria-labelledby="sb-desktop">
+        <h3 id="sb-desktop">Desktop Layout (950px)</h3>
+        <p>Desktop wireframe (PNG):</p>
+        <img src="../Assets/storyboard-desktop.jpg" alt="Desktop storyboard" style="max-width:100%;border-radius:10px;box-shadow:var(--shadow)">
+
+        <h4>Div groups (desktop)</h4>
+        <pre>
+<header class="grid">logo | nav | contact</header>
+main.grid-2 { left: content | right: portrait / quick links }
+sections stacked with cards and grid
+footer full width
+        </pre>
+      </section>
+
+      <section class="card" aria-labelledby="palette">
+        <h3 id="palette">Color palette & fonts</h3>
+        <div class="palette">
+          <div class="swatch" style="background:#1a73e8">#1A73E8<br>RGB(26,115,232)</div>
+          <div class="swatch" style="background:#d97706">#D97706<br>RGB(217,119,6)</div>
+          <div class="swatch" style="background:#fbfaf6;color:#222">#FBFAF6<br>RGB(251,250,246)</div>
+        </div>
+        <p>Font-family (root): <code>Segoe UI, Roboto, Helvetica, Arial, sans-serif</code></p>
+        <p>Monospace for accents: <code>Courier New, Courier, monospace</code></p>
+      </section>
+
+<section class="card">
+  <h3>Hosting & GitHub</h3>
+  <p>
+    GitHub Repo: 
+    <a class="external" href="https://github.com/AlexC067/2307247_IA1_S1AY26" target="_blank">
+      github.com/AlexC067/2307247_IA1_S1AY26
+    </a>
+  </p>
+  <p>
+    Free Hosting (GitHub Pages): 
+    <a class="external" href="https://AlexC067.github.io/2307247_IA1_S1AY26/" target="_blank">
+      AlexC067.github.io/2307247_IA1_S1AY26
+    </a>
+  </p>
+</section>
+
+<footer class="site-footer">
+  <div>
+    Storyboard files: 
+    <a href="Assets/storyboard-mobile.jpg" target="_blank">Mobile</a> | 
+    <a href="Assets/storyboard-desktop.jpg" target="_blank">Desktop</a>
+  </div>
+  <p>&copy; 2025 Alex Crawford — All Rights Reserved.</p>
+</footer>
+  </div>
+</body>
+</html>
